@@ -43,7 +43,6 @@ public class Burger {
 			for(int i = burgerToppings.length-1; i > 0; i--)
 				if (burgerToppings[i] == "Bun" || burgerToppings[i] == "Patty" )
 					order.push(burgerToppings[i]);
-		
 	}
 	public Burger () {
 		burger = new MyStack();
